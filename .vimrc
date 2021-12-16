@@ -41,6 +41,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
     Plug 'preservim/nerdtree'
+    Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
 
 " Run PlugInstall if there are missing plugins
